@@ -62,8 +62,6 @@ def SS_fit(data) :
     #A,B,C,Dの行列を計算
     P = np.dot(np.linalg.inv(K),L)
 
-    print(P)
-
     A = P[0]
     B = P[1]
     C = P[2]
